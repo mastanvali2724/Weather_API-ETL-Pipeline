@@ -3,6 +3,7 @@ import urllib.parse
 import boto3
 import pandas as pd
 import io
+import pandas
 
 print('Loading function')
 s3 = boto3.client('s3')
